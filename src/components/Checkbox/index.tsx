@@ -1,9 +1,7 @@
-import { ReactNode } from "react";
-import { clsx } from "clsx";
 import * as CheckboxRadix from "@radix-ui/react-checkbox";
 import { Check } from "phosphor-react";
 
-export interface CheckboxProps {}
+export interface CheckboxProps extends CheckboxRadix.CheckboxProps {}
 
 export function Checkbox({}: CheckboxProps) {
   return (
